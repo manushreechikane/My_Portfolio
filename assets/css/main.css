@@ -1420,4 +1420,54 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+} 
+/* ===== Resume Fix Styling ===== */
+
+.resume {
+  padding: 60px 0;
+}
+
+/* Headings */
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #2c4964;
+}
+
+/* Resume Item Boxes */
+.resume .resume-item {
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  border-left: 3px solid #008374;
+  background: #f7f9fc;
+  border-radius: 6px;
+}
+
+.resume .resume-item h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 15px;
+  background: #e7f3ff;
+  padding: 4px 12px;
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #0078ff;
+  margin-bottom: 15px;
+}
+
+/* bullet list spacing */
+.resume ul {
+  padding-left: 20px;
+}
+
+.resume ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
 }
