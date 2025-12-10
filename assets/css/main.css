@@ -1487,4 +1487,8 @@ section,
   border-left: 3px solid #1f5297;
   box-sizing: border-box;
 }
-
+/* Target the main row within the resume section */
+#resume .row {
+    /* This ensures that the two main columns start aligning from the top */
+    align-items: flex-start;
+}
